@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Browser-api</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./src/img/logo.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li> <a href="#" class="menu-option">Inicio</a> </li>
+                <li> <a href="#" class="menu-option">Localização</a> </li>
+                <li> <a href="#" class="menu-option">Serviços</a> </li>
+                <li> <a href="#" class="menu-option">Segmentos</a> </li>
+            </ul>
+        </div>
+    </header>
+    <banner>
+        <section class="banner">
+            <div>
+                <img src="./src/img/img-banner.png" alt="Dardo" srcset="" class="img-banner">
+            </div>
+            <div class="txt-banner">
+                <h1>Tranformação Digital</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt soluta natus sit?
+                    Consectetur est amet laudantium deserunt quia esse nam eum laboriosam earum ipsum, exercitationem,
+                    odio maxime ea voluptatum?</p>
+                <button onclick=getNotifications() class="notificacao">Ativar Notificações</button>
+            </div>
+        </section>
+    </banner>
+    <section class="localizacao">
+        <div class="txt-localizacao">
+            
+            <h2>Localização</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Deleniti inventore molestias vel enim distinctio libero non possimus earum.</p>
+        </div>
+
+        <div class="mapouter" style="margin-bottom: 319px;">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="" name="map" frameborder="0"
+                    scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://fmovies-online.net"></a><br>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 500px;
+                        width: 600px;
+                    }
+                </style><a href="https://www.embedgooglemap.net"></a>
+                <style>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 500px;
+                        width: 600px;
+                    }
+                </style>
+            </div>
+        </div>
+    </section>
+    <section class="servicos">
+
+        <div class="servicos-titulo">
+            <h2>Seviços</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                bcaecati vero totam ipsa suscipit dignissimos commodi ex fuga nesciunt maxime dolore, iste aut
+                voluptates!</p>
+        </div>
+        <section id="content">
+            <div class="col" id="card-01" class="UX Design">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Excepturi officiis cum illum distinctio autem molestias veritatis nam, voluptatem culpa nihil est
+                    accusamus libero.
+                    Aliquam ab rem inventore cupiditate atque libero.</p>
+            </div>
+            <div class="col" id="card-02" class-="front-end">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Excepturi officiis cum illum distinctio autem molestias veritatis nam, voluptatem culpa nihil est
+                    accusamus libero.
+                    Aliquam ab rem inventore cupiditate atque libero.</p>
+            </div>
+            <div class="col" id="card-03" class="Test">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Excepturi officiis cum illum distinctio autem molestias veritatis nam, voluptatem culpa nihil est
+                    accusamus libero.
+                    Aliquam ab rem inventore cupiditate atque libero.</p>
+            </div>
+            <div class="col" id="card-04" class="Delivey">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Excepturi officiis cum illum distinctio autem molestias veritatis nam, voluptatem culpa nihil est
+                    accusamus libero.
+                    Aliquam ab rem inventore cupiditate atque libero.</p>
+            </div>
+
+        </section>
+    </section>
+    <section class="segmentos">
+        <div class="top-segmentos">
+            <h2>Segmentos</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+        </div>
+        <section id="content-segmentos">
+            <div class="os-segmentos">
+                <div class="icon-txt">
+                    <img src="./src/img/icon-e-commerce.svg" alt="" class="icon">
+                    <h3>E-commerce</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo et libero at consequuntur iure voluptates non rem unde, fugiat autem iste reiciendis quasi in
+                    laudantium vel perferendis temporibus recusandae perspiciatis.</p>
+            </div>
+            <div class="os-segmentos">
+                <div class="icon-txt">
+                <img src="./src/img/icon-FinTechs.svg" alt="" class="icon">
+                <h3>FinTechs</h3>
+            </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo et libero at consequuntur iure voluptates non rem unde, fugiat autem iste reiciendis quasi in
+                    laudantium vel perferendis temporibus recusandae perspiciatis.</p>
+            </div>
+            <div class="os-segmentos">
+                <div class="icon-txt">
+                <img src="./src/img/icon-mobilidade.svg" alt="" class="icon">
+                <h3>Mobilidade</h3></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo et libero at consequuntur iure voluptates non rem unde, fugiat autem iste reiciendis quasi in
+                    laudantium vel perferendis temporibus recusandae perspiciatis.</p>
+            </div>
+            <div class="os-segmentos">
+                <div class="icon-txt">
+                <img src="./src/img/icon-entretenimento.svg" alt="" class="icon">
+                <h3>Entretenimento</h3></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo et libero at consequuntur iure voluptates non rem unde, fugiat autem iste reiciendis quasi in
+                    laudantium vel perferendis temporibus recusandae perspiciatis.</p>
+            </div>
+            <div class="os-segmentos">
+                <div class="icon-txt">
+                <img src="./src/img/icon-direito.svg" alt="" class="icon">
+                <h3>Direito</h3></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo et libero at consequuntur iure voluptates non rem unde, fugiat autem iste reiciendis quasi in
+                    laudantium vel perferendis temporibus recusandae perspiciatis.</p>
+            </div>
+            <div class="os-segmentos">
+                <div class="icon-txt">
+                <img src="./src/img/icon-hospitalidade.svg" alt="" class="icon">
+                <h3>Hospitalidade</h3></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo et libero at consequuntur iure voluptates non rem unde, fugiat autem iste reiciendis quasi in
+                    laudantium vel perferendis temporibus recusandae perspiciatis.</p>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <img src="./src/img/logo-footer.png" alt="Logo" class="logo-footer">
+        <p>&copy; Copyright 2022 | All Rights Reserved </p>
+    </footer>
+
+    <script src="./js/scripts.js"></script>
+    <script src="./js/geolocation.js"></script>
+    <script src="./js/notification.js"></script>
+</body>
+
+</html>

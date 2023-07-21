@@ -1,0 +1,399 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+section {
+    margin: 4rem auto 8rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.parent {
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.origin {
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.draggable {
+    border: 1px solid #efefef;
+    background-color: #ddd;
+    cursor: grab;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.dropzone {
+    border: 2px dashed #ddd;
+    background-color: #eee;
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.dropzone:hover {
+    border-color: #339;
+}
+
+@media (max-width: 620px) {
+    .container {
+        max-width: 560px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #fbb;
+        color: #33f;
+    }
+} 
+   background: url('../src/img/elipse-vazia.png');
+    background: url('../src/img/elipse-cheia.png');
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFF;
+
+
+
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Montserrat; 
+
+}
+
+h1 {
+    color: #1A1A1A;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 42px;
+    width: 504px ;
+}
+
+h2 {
+    color: #1A1A1A;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 42px;
+}
+h3 {
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+
+}
+p {
+    color: #595959;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    width: auto;
+}
+
+.logo {
+    width: 180.5px;
+    height: 35.5px;
+    margin-top: 57px;
+    margin-left: 206px;
+    margin-bottom: 57.5px;
+
+}
+
+.menu {
+    margin-right: 150px;
+    width: auto;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.menu ul li {
+    margin: auto calc(34px / 2);
+    padding-top: 74px;
+    padding-bottom: 41px;
+
+}
+
+.menu ul li a {
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+/* Banner */
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-banner {
+    width: 1074.08px;
+    height: 842.68px;
+
+}
+ .txt-banner {
+    display: block;
+    text-align: left;
+    margin-right: 163px;
+}
+
+button {
+    margin-top: 42px;
+    color: #0074FF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid #000;
+    padding: 22px 36px 21px 36px !important
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Localização */
+
+
+
+.localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-right: 170px;
+    margin-top: 110.32px;
+    background: url("../src/img/elipse-cheia.png") no-repeat left;
+
+}
+
+.txt-localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 490px !important;
+    margin-right: 344px !important;
+}
+
+.localizacao p {
+    width: 1231px;
+    margin-bottom: 72px;
+
+}
+
+
+
+/* Content */
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 162px ;
+    margin-right: 170px;
+    background: url("../src/img/elipse-vazia.png") no-repeat right;
+}
+ .servicos-titulo {
+    margin-left: 186px;
+    margin-right: 186px;
+ }
+
+
+#content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    margin-top: 77px;
+    margin-bottom: 221px;
+}
+
+.col p {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 280px;
+margin: 219px 22px 53px 7px;
+}
+
+#card-01 {
+    width: 309px;
+height: 448px;
+    background: url('../src/img/card-01.png');
+}
+
+#card-02 {
+    width: 309px;
+height: 448px;
+    background: url('../src/img/card-02.png');
+}
+
+#card-03 {
+    width: 309px;
+height: 448px;
+    background: url('../src/img/card-03.png');
+}
+
+#card-04 {
+    width: 309px;
+height: 448px;
+    background: url('../src/img/card-04.png');
+}
+
+/* Segmentos */
+.segmentos {
+    margin-left: 162px ;
+    margin-right: 170px;
+    margin-bottom: 230.5px;
+
+}
+
+.top-segmentos {
+    display: block;
+    align-items: center;
+    margin-left: 267px;
+    margin-right: 267px;
+    
+}
+
+#content-segmentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 275px;
+    margin-top: 111.84px;
+
+
+}
+
+.os-segmentos p {
+    color: #595959;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 15px;
+
+width: 321px;
+height: 138px;
+}
+
+.icon {
+    background: url('../src/img/Vector\ 1.png') !important;
+}
+
+.icon-txt {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 6px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #1A1A1A;
+    width: 1920px;
+height: 150px;
+gap: 1101px;
+}
+
+.logo-footer {
+    margin-top: 57px;
+    margin-left: 206px;
+    width: 182.5px;
+height: 35.5px;
+}
+
+footer p {
+    color: #FFF;
+text-align: right;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 67px;
+margin-right: 162px;
+}
