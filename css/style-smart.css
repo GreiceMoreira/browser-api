@@ -1,31 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #FFF;
 
-}
-
-html {
-    font-size: 62.5%;
-    font-family: Montserrat;
-
-}
 
 h1 {
-    color: #1A1A1A;
-    font-size: 64px;
+
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 42px;
-    width: 504px;
+    width: 300px;
 }
 
 h2 {
-    color: #1A1A1A;
+    
     text-align: center;
-    font-size: 48px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -33,9 +21,9 @@ h2 {
 }
 
 h3 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 24px;
+    
+    
+    font-size: 12px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -44,8 +32,8 @@ h3 {
 }
 
 p {
-    color: #595959;
-    font-size: 36px;
+
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -55,7 +43,7 @@ p {
 
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     gap: 100px;
     width: auto;
@@ -92,8 +80,6 @@ header {
 
 .menu ul li a {
 
-    color: #000;
-    font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -151,7 +137,7 @@ button:hover {
 
     margin-right: 170px;
     margin-top: 110.32px;
-    background: url("../src/img/elipse-cheia.png") no-repeat left;
+    background: none
 
 }
 
@@ -179,7 +165,7 @@ button:hover {
     align-items: center;
     margin-left: 162px;
     margin-right: 170px;
-    background: url("../src/img/elipse-vazia.png") no-repeat right;
+    background: none
 }
 
 .servicos-titulo {
@@ -301,7 +287,7 @@ footer {
 }
 
 footer p {
-    color: #FFF;
+    
     text-align: right;
     font-family: Montserrat;
     font-size: 14px;
@@ -310,137 +296,4 @@ footer p {
     line-height: normal;
     margin-top: 67px;
     margin-right: 162px;
-}
-
-@media (max-width: 620px) {
-    .container {
-        max-width: 560px;
-    }
-}
-
-@media (max-width: 390px) {
-
- 
-    h1 {
-        font-size: 30px;
-        width: 300px;
-    }
-    
-    h2 {   
-        font-size: 24px;
-    }
-    
-    h3 {   
-        font-size: 12px;
-    }
-    
-    p {
-    
-        font-size: 20px;
-    }
-    
-    /* Header */
-    
-    header {
-        flex-direction: column;
-        width: max-content;
-    }
-    
-    .logo {
-    
-        justify-content: center;
-        margin-left: 500px;
-        margin-bottom: 3px;
-    
-    }
-    
-    
-    .menu ul {
-        gap: 150px;
-        margin-left: 188px;
-    }
-    
-    /* Banner */
-    
-    .banner {
-        margin-left: 100px;
-        gap: 100px;
-    }
-    
-    .img-banner {
-        width: calc(1074.08px / 2.5);
-        height: calc(842.68px / 2.5) ;
-    
-    }
-    
-    
-    /* Localização */
-    
-    
-    
-    .localizacao {
-        background: none;
-        width: max-content;
-    }
-    
-    .txt-localizacao {
-        margin-left: 300px !important;
-        margin-right: 150px !important;
-    }
-    
-    .localizacao p {
-        width: 590px;
-    
-    }
-    
-    
-    
-    /* Content */
-    
-    .servicos {
-        margin-left: 0px;
-        background: none;
-        width: fit-content;
-    }
-    
-    .servicos-titulo {
-        margin-left: 186px;
-        margin-right: 186px;
-    }
-    
-    
-    #content {
-        gap: 0px;
-    }
-    
-    /* Segmentos */
-    .segmentos {
-        margin-left: 50px;
-        margin-right: 170px;
-        margin-bottom: 230.5px;
-        width: fit-content;
-    
-    }
-    
-    .top-segmentos {
-        margin-left: 60px;
-        width: fit-content;
-    
-    }
-    
-    #content-segmentos {
-    
-        gap: 62px;
-    
-    
-    }
-    
-    /* Footer */
-    
-    footer {
-        gap: 110px;
-        width: 1166px;
-    }
-    
-
 }
