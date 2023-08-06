@@ -408,6 +408,12 @@ footer p {
         margin-right: 186px;
     }
     
+    #card-01,  #card-02, #card-03, #card-04  {
+        width: 288px;
+        height: 448px;
+    }
+ 
+
     
     #content {
         gap: 0px;
